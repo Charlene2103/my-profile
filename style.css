@@ -1,0 +1,109 @@
+body {
+background-color: rgb(238, 213, 208);
+color: black;
+font-family: font-family: 'Oswald', sans-serif;
+font-size: 17px;
+}
+
+
+h1, h2, {
+	font-family: font-family: 'Lemonada', cursive;
+}
+
+h1 {
+	color: rgb(238, 96, 95);
+	font-weight: 100;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+h2 {
+	color: rgb(76, 178, 171);
+	font-weight: 100;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+a {
+	font-family: font-family: 'Lemonada', cursive;
+	text-decoration: none;
+	color: rgb(238, 96, 95);
+	font-weight: bold;
+}
+a:hover {
+	color: rgb(75, 176, 167);
+}	
+ 
+div {
+	padding: 8px;
+	margin:10px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,0.1)
+	border-radius: 4px;
+	background: white
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+.container {
+  width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+.container {
+  width: 400px;
+  }
+}
+
+.card-white {
+background-color: white
+padding: 40px;
+box-shadow: 0px 2px 5px rgb(76, 178, 171);
+border-radius: 4px;
+margin-right: 40px 20px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+.btn-blue {
+background-color: white
+color: white;
+padding: 15px 20px;
+border-radius: 4px
+}
+
+.btn-blue: hover {
+background-color: black;
+color: white;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inle i:hover {
+color:black;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
+
